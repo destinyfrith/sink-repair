@@ -3,7 +3,7 @@ const applicationState = {
 
     ]
 }
-
+// the url of the address you need data from
 const API = "http://localhost:8088"
 
 export const fetchRequests = () => {
@@ -20,5 +20,5 @@ export const fetchRequests = () => {
 // Define/export a function named getRequests that returns a copy of the requests state
 
 export const getRequests = () => {
-    return dataAccess.applicationState.map(request => ({ ...request }))
+    return applicationState.requests.map(request => ({ ...request }))
 }

@@ -4,10 +4,24 @@
     "requests": [
         {
             "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+            "description": "My sink is leaking constantly. Help!!!",
             "address": "34445 Bianka Ports",
             "budget": 400,
             "neededBy": "2021-08-27"
+        },
+        {
+            "id": 2,
+            "description": "My water pressure lacks enthusiasm.",
+            "address": "343 Treasure Cove",
+            "budget": 300,
+            "neededBy": "2021-09-17"
+        },
+        {
+            "id": 3,
+            "description": "My sink won't work at all.",
+            "address": "4525 Black Timber",
+            "budget": 200,
+            "neededBy": "2021-03-27"
         }
     ]
 }

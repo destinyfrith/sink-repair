@@ -1,0 +1,14 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    margin: .5rem;
+}
+
+.button {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(99, 173, 56);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}

@@ -5,9 +5,8 @@ export const Requests = () => {
 
     let html = `
         <ul>
-            ${
-                requests.map(convertRequestToListElement).join("")
-            }
+            ${requests.map(convertRequestToListElement).join("")
+        }
         </ul>
     `
 
